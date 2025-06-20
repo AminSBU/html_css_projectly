@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #262626;
+}
+
+.loading{
+    display: flex;
+}
+
+.loading span{
+    width: 30px;
+    height: 200px;
+    background-color:aqua;
+    margin: 0 20px;
+    animation: animate 1.4s infinite;
+}
